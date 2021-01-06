@@ -1,0 +1,52 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+.header h1{
+    font-weight: 100;
+    margin: 0;
+    padding: 0 10px;
+}
+
+h2,p{
+    padding: 0 10px 0;
+}
+
+.col{
+    box-sizing: border-box;
+    float: left;
+}
+
+.nav{
+    background-color: rgb(231, 231, 231);
+    width: 20%;
+    height: 85vh;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 80%;
+    height: 85vh;
+    box-sizing: border-box;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 5px 0;
+}

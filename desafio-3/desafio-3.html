@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+
+    <style>
+        .container{
+            display: inline-block;
+            width: 300px;
+            margin: 0 auto;
+            padding: 50px 40px 0;
+        }
+
+        .flag {
+            box-sizing: content-box;
+            width: 300px;
+            margin: 0 auto;
+            position: relative;
+            border: gray solid 1px;
+        }
+        .espana-rojo{
+            background-color: red;
+            padding: 60px 0;
+        }
+        .espana-amarillo{
+            width: 100%;
+            height: 80px;
+            background-color: yellow;
+            position: relative;
+        }
+        .dinamarca-blanco-h{
+            width: 100%;
+            height: 20px;
+            background-color: white;
+            position: relative;
+        }
+        .dinamarca-blanco-v{
+            background-color: white;
+            position: absolute;
+            top: 0;
+            width: 20px;
+            height: 100%;
+            margin-left: 90px;
+        }
+        .dinamarca-rojo{
+            background-color: red;
+            padding: 90px 0;
+        }
+
+        .eau-rojo{
+            background-color: red;
+            height: 200px;
+            width:80px;
+        }
+        .eau-verde{
+            background-color: green;
+            position: relative;
+            left: 80px;
+            height: 33%;
+            width: 220px;
+        }
+        .eau-negro{
+            background-color: black;
+            position: relative;
+            top: 34%;
+            left: 80px;
+            height: 33%;
+            width: 220px;
+        }
+        .japon{
+            height: 200px;
+            width: 100%;
+            text-align: center;
+        }
+        .japon_sol{
+            display: inline-block;
+            background-color: red;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: relative;
+            top: 50%;
+            margin-top: -40px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <section class="flag">
+            <div class="espana-rojo">
+                <div class="espana-amarillo"></div>
+            </div>
+        </section>
+        España
+    </section>
+
+    <section class="container">
+        <section class="flag">
+            <div class="dinamarca-rojo">
+                <div class="dinamarca-blanco-v"></div>
+                <div class="dinamarca-blanco-h"></div>                
+            </div>
+        </section>
+        Dinamarca
+    </section>    
+
+    <section class="container">
+        <section class="flag">
+            <div class="eau-rojo">
+                <div class="eau-verde"></div>
+                <div class="eau-negro"></div>
+            </div>
+        </section>
+        Emiratos Árabes
+    </section>
+
+    <section class="container">
+        <section class="flag">
+            <div class="japon">
+                <div class="japon_sol"></div>
+            </div>
+        </section>
+        Japón
+    </section>
+</body>
+
+</html>

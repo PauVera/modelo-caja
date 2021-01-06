@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Modelo de cajas</title>
+
+    <style media="screen" type="text/css">
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            position: fixed;
+            top: 0;
+            background-color: green;
+        }
+        .main {
+            margin: 5px;
+        }
+
+        p:before {
+            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, sit! Adipisci soluta harum tempore dolorem earum natus fuga mollitia eveniet. Quaerat incidunt libero assumenda voluptas quam. Sint rerum commodi eius, mollitia accusantium tenetur odit necessitatibus perferendis obcaecati voluptas illum voluptatum minus?";
+        }
+
+        .main p{
+            text-align: initial;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid #808080;
+            float: left;
+            width: 25%;
+            padding: 5px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .box img {
+            height: 100%;
+        }
+    </style>
+    <!--
+        Agregar una barra de navegación fija con clase .navbar en el borde superior, qu cupe el 100% del ancho. Luego agregar texto y color de fondo verde, tal como se muestra en la imagen ejercicio-1_navbar.png
+
+    -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <p></p>
+        <p></p>
+    </nav>
+    <section class="main">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <section class="box">
+            <img src="https://blog.desafiolatam.com/wp-content/uploads/2015/03/desafio-latam-logonegro.png"
+                alt="Logo Desafío Latam">
+            <p></p>
+        </section>
+        <section class="box">
+            <img src="https://blog.desafiolatam.com/wp-content/uploads/2015/03/desafio-latam-logonegro.png"
+                alt="Logo Desafío Latam">
+            <p></p>
+        </section>
+        <section class="box">
+            <img src="https://blog.desafiolatam.com/wp-content/uploads/2015/03/desafio-latam-logonegro.png"
+                alt="Logo Desafío Latam">
+            <p></p>
+        </section>
+        <section class="box">
+            <img src="https://blog.desafiolatam.com/wp-content/uploads/2015/03/desafio-latam-logonegro.png"
+                alt="Logo Desafío Latam">
+            <p></p>
+        </section>
+    </section>
+
+    <!--
+        **Agregar 4 cajas distribubidas horizontalmente a la clase .box, con un width de 25% y padding de 5px, y luego evita el desborde de los elementos recalculando los elementos
+
+        **Agregar texto e imágenes a cada caja según imagen ejercicio1.png
+    -->
+</body>
+
+</html>
